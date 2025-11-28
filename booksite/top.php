@@ -33,5 +33,5 @@
 </table>
 
 <marquee style="color:red; font-size:16px; margin-top:5px;">
-✨ New Events: 40+ books added • MVSR Project • Login & Cart Updated • New Features Added
+ New Events: 40+ books added • MVSR Project • Login & Cart Updated • New Features Added
 </marquee>
