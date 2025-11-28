@@ -1,5 +1,5 @@
 <?php
-// db_connect.php
+
 $DB_HOST = "localhost";
 $DB_USER = "root";
 $DB_PASS = "";
@@ -10,7 +10,7 @@ if (!$conn) {
     die("DB Conn Failed: " . mysqli_connect_error());
 }
 
-// Start session for pages that include this
+
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
