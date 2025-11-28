@@ -11,7 +11,7 @@ Feel free to customize this page further with images, banners, or college-relate
 
 <hr style="margin:30px 0;">
 
-<!-- ⭐ About MVSR College Section -->
+
 <h2 style="color:#333;">About MVSR Engineering College</h2>
 
 <p style="font-size:17px; color:#444; line-height:1.7;">
@@ -34,7 +34,6 @@ making it one of the top preferred colleges for engineering aspirants in Telanga
 
 <hr style="margin:30px 0;">
 
-<!-- ⭐ Contact / Email Option -->
 <h2 style="color:#333;">Contact Us</h2>
 
 <p style="font-size:17px; color:#444;">
@@ -42,7 +41,7 @@ If you want to know more about MVSR Engineering College or this Bookstore Projec
 feel free to reach out to us:
 </p>
 
-<!-- Mailto Button -->
+
 <a href="mailto:info@mvsrec.edu.in" 
    style="font-size:18px; color:white; background:#0073e6; padding:10px 20px; 
           text-decoration:none; border-radius:5px; display:inline-block; margin-top:10px;">
