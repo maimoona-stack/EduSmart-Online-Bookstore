@@ -37,5 +37,3 @@ To build competent electrical engineers who contribute to technological advancem
     <li>High-voltage & simulation labs</li>
 </ul>
 
-<h3>👨‍🏫 HOD</h3>
-<p>Dr. _________ (Add actual name)</p>
