@@ -2,7 +2,7 @@
 <html>
 <body style="font-family:Arial; padding:20px; line-height:1.6;">
 
-<!-- 🔥 Marquee ONLY on Website Info Page -->
+
 <marquee style="color:red; font-size:18px; font-weight:bold; margin-bottom:20px;">
 ✨ Latest Update: 40+ new books added • Website improved • Login system upgraded!
 </marquee>
