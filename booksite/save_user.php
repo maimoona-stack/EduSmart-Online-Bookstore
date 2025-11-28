@@ -2,7 +2,6 @@
 session_start();
 include("db_connect.php");
 
-// Get values safely
 $name     = mysqli_real_escape_string($conn, $_POST['name']);
 $username = mysqli_real_escape_string($conn, $_POST['username']);
 $password = mysqli_real_escape_string($conn, $_POST['password']);
@@ -10,7 +9,7 @@ $email    = mysqli_real_escape_string($conn, $_POST['email']);
 $phone    = mysqli_real_escape_string($conn, $_POST['phone']);
 $address  = mysqli_real_escape_string($conn, $_POST['address'] ?? "");
 
-// CHECK: username already exists?
+// check username 
 $check = mysqli_query($conn, "SELECT * FROM users WHERE username='$username' LIMIT 1");
 
 if (mysqli_num_rows($check) > 0) {
