@@ -36,6 +36,3 @@ To produce industry-ready engineers with strong fundamentals in electronics and 
     <li>Microcontroller & Embedded labs</li>
     <li>VLSI design and simulation tools</li>
 </ul>
-
-<h3>👨‍🏫 HOD</h3>
-<p>Dr. _________ (Add actual name if needed)</p>
