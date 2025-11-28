@@ -37,7 +37,7 @@ $cart_items = [];
 while ($row = mysqli_fetch_assoc($res)) {
     $row['subtotal'] = $row['qty'] * $row['price'];
     $grand_total += $row['subtotal'];
-    $cart_items[] = $row; // store items
+    $cart_items[] = $row; 
 }
 
 // Insert into orders table
