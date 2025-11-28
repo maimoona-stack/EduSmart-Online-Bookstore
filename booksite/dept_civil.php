@@ -38,4 +38,4 @@ To develop civil engineers with strong technical knowledge, professional ethics,
 </ul>
 
 <h3>👨‍🏫 HOD</h3>
-<p>Dr. _________ (Fill as required)</p>
+<p>Dr.K Venugopal Rao</p>
