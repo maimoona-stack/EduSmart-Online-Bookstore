@@ -11,7 +11,7 @@ $user = mysqli_real_escape_string($conn, $_SESSION['user']);
 $book_id = intval($_GET['book_id']);
 $qty = isset($_GET['qty']) ? intval($_GET['qty']) : 1;
 
-if ($qty < 1) $qty = 1; // safety
+if ($qty < 1) $qty = 1; 
 
 // Check if this book is already in the cart
 $check = mysqli_query($conn, "SELECT * FROM cart WHERE username='$user' AND book_id=$book_id LIMIT 1");
