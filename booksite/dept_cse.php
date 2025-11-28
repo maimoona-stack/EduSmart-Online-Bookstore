@@ -39,4 +39,4 @@ software professionals.
 </ul>
 
 <h3>👨‍🏫 HOD</h3>
-<p>Dr. _________ (You can fill the actual name)</p>
+<p>Dr.K VenuGgopal Rao</p>
