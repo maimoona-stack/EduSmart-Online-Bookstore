@@ -41,4 +41,4 @@ to meet the industry’s evolving technological demands.
 </ul>
 
 <h3>👨‍🏫 HOD</h3>
-<p>Dr. _________ (Add actual name)</p>
+<p>Dr.K VenuGgopal Rao</p>
