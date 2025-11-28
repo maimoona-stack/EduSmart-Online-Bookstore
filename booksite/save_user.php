@@ -13,7 +13,7 @@ $address  = mysqli_real_escape_string($conn, $_POST['address'] ?? "");
 $check = mysqli_query($conn, "SELECT * FROM users WHERE username='$username' LIMIT 1");
 
 if (mysqli_num_rows($check) > 0) {
-    echo "<script>alert('❌ Username already exists. Try another'); window.location='registration.php';</script>";
+    echo "<script>alert('Username already exists. Try another'); window.location='registration.php';</script>";
     exit;
 }
 
@@ -22,9 +22,9 @@ $sql = "INSERT INTO users (name, username, password, email, phone, address)
         VALUES ('$name', '$username', '$password', '$email', '$phone', '$address')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "<script>alert('✅ Registration successful! Please login.'); 
+    echo "<script>alert(' Registration successful! Please login.'); 
           window.location='login.php';</script>";
 } else {
-    echo "<script>alert('❌ Error while saving user'); window.location='registration.php';</script>";
+    echo "<script>alert(' Error while saving user'); window.location='registration.php';</script>";
 }
 ?>
