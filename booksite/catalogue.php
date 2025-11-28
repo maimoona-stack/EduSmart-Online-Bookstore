@@ -11,7 +11,7 @@ $dept = isset($_GET['dept']) ? mysqli_real_escape_string($conn, $_GET['dept']) :
 <body style="font-family:Arial; padding:20px;">
 
 <?php
-// IF NO DEPARTMENT SELECTED → SHOW DEPARTMENT OPTIONS
+// SHOW DEPARTMENT OPTIONS
 if ($dept == "") {
 ?>
 
